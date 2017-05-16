@@ -1,0 +1,14 @@
+{
+  "main": "protractor.conf.js",
+  "scripts": {
+    "test": "protractor"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "chai-as-promised": "6.0.0",
+    "cucumber": "2.0.0-rc.9",
+    "protractor": "5.1.1",
+    "protractor-cucumber-framework": "3.1.0",
+    "selenium-webdriver": "2.53.3"
+  }
+}

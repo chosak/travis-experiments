@@ -1,0 +1,7 @@
+language: node_js
+addons:
+  apt:
+    sources:
+      - google-chome
+    packages:
+      - google-chrome-beta
