@@ -11,7 +11,7 @@ addons:
     packages:
       - google-chrome-beta
 env:
-  - CHROME_BIN=/usr/bin/google-chrome-beta
+  - GOOGLE_CHROME_BINARY=/usr/bin/google-chrome-beta
 before_script:
   - npm run update-webdriver
   - export DISPLAY=:99.0
