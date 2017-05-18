@@ -1,8 +1,7 @@
 {
   "main": "protractor.conf.js",
   "scripts": {
-    "test": "protractor",
-    "update-webdriver": "node_modules/protractor/node_modules/.bin/webdriver-manager update"
+    "test": "protractor"
   },
   "devDependencies": {
     "chai": "3.5.0",
