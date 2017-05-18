@@ -9,6 +9,7 @@ if (process.env.GOOGLE_CHROME_BINARY) {
 
 
 exports.config = {
+  directConnect: true,
   capabilities: {
     browserName: 'chrome',
     chromeOptions: chromeOptions
