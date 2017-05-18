@@ -6,7 +6,7 @@ node_js:
 addons:
   apt:
     packages:
-      - google-chrome-beta
+      - google-chrome-stable
 before_script:
   - npm run update-webdriver
   - export DISPLAY=:99.0
